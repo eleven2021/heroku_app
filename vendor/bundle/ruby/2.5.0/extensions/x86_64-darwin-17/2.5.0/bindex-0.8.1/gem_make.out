@@ -1,0 +1,16 @@
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/eleven/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210205-86272-6ozhue.rb extconf.rb
+creating Makefile
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: dylib (/usr/local/lib/libgmp.dylib) was built for newer macOS version (11.0) than being linked (10.15.6)
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20210205-86272-1go8wuw/skiptrace/internal

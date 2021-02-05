@@ -1,0 +1,16 @@
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/eleven/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210205-86272-19kekpk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: dylib (/usr/local/lib/libgmp.dylib) was built for newer macOS version (11.0) than being linked (10.15.6)
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20210205-86272-i7q7ao

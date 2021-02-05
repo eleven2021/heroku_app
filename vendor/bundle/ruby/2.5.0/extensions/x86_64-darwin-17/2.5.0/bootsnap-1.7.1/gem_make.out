@@ -1,0 +1,16 @@
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.1/ext/bootsnap
+/Users/eleven/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210205-86272-1c4rop0.rb extconf.rb
+creating Makefile
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: dylib (/usr/local/lib/libgmp.dylib) was built for newer macOS version (11.0) than being linked (10.15.6)
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.7.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20210205-86272-xxatex/bootsnap

@@ -1,0 +1,17 @@
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
+/Users/eleven/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20210205-86272-1ta53ze.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: dylib (/usr/local/lib/libgmp.dylib) was built for newer macOS version (11.0) than being linked (10.15.6)
+
+current directory: /Users/eleven/workspace/heroku_app/vendor/bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20210205-86272-1arqiiw/racc
